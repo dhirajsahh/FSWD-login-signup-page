@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkslategray;
+}
+
+nav button{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: darkslategray ;
+}
+@media only screen and (max-width: 400px) {
+    nav{
+        width: 500px;
+        height: 60px;
+    }
+    nav button{
+        height: 60px;
+    }
+}
